@@ -1,0 +1,230 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(60, 9%, 98%);
+  --foreground: hsl(20, 14.3%, 4.1%);
+  --muted: hsl(60, 4.8%, 95.9%);
+  --muted-foreground: hsl(25, 5.3%, 44.7%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(20, 14.3%, 4.1%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(20, 14.3%, 4.1%);
+  --border: hsl(20, 5.9%, 90%);
+  --input: hsl(20, 5.9%, 90%);
+  --primary: hsl(82, 39%, 30%);
+  --primary-foreground: hsl(60, 9%, 98%);
+  --secondary: hsl(60, 4.8%, 95.9%);
+  --secondary-foreground: hsl(24, 9.8%, 10%);
+  --accent: hsl(42, 87%, 55%);
+  --accent-foreground: hsl(20, 14.3%, 4.1%);
+  --destructive: hsl(0, 84.2%, 60.2%);
+  --destructive-foreground: hsl(60, 9.1%, 97.8%);
+  --ring: hsl(20, 14.3%, 4.1%);
+  --radius: 0.5rem;
+  
+  /* Custom landscaping colors */
+  --forest-green: hsl(82, 39%, 30%);
+  --sage-green: hsl(82, 25%, 55%);
+  --warm-brown: hsl(25, 61%, 31%);
+  --sandstone: hsl(43, 56%, 70%);
+  --accent-gold: hsl(42, 87%, 55%);
+  --warm-white: hsl(60, 9%, 98%);
+  --soft-cream: hsl(48, 56%, 93%);
+  --charcoal: hsl(210, 11%, 15%);
+}
+
+.dark {
+  --background: hsl(240, 10%, 3.9%);
+  --foreground: hsl(0, 0%, 98%);
+  --muted: hsl(240, 3.7%, 15.9%);
+  --muted-foreground: hsl(240, 5%, 64.9%);
+  --popover: hsl(240, 10%, 3.9%);
+  --popover-foreground: hsl(0, 0%, 98%);
+  --card: hsl(240, 10%, 3.9%);
+  --card-foreground: hsl(0, 0%, 98%);
+  --border: hsl(240, 3.7%, 15.9%);
+  --input: hsl(240, 3.7%, 15.9%);
+  --primary: hsl(82, 39%, 30%);
+  --primary-foreground: hsl(60, 9%, 98%);
+  --secondary: hsl(240, 3.7%, 15.9%);
+  --secondary-foreground: hsl(0, 0%, 98%);
+  --accent: hsl(240, 3.7%, 15.9%);
+  --accent-foreground: hsl(0, 0%, 98%);
+  --destructive: hsl(0, 62.8%, 30.6%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --ring: hsl(240, 4.9%, 83.9%);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+
+  .font-serif {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+@layer components {
+  .text-forest-green {
+    color: var(--forest-green);
+  }
+  
+  .text-sage-green {
+    color: var(--sage-green);
+  }
+  
+  .text-warm-brown {
+    color: var(--warm-brown);
+  }
+  
+  .text-sandstone {
+    color: var(--sandstone);
+  }
+  
+  .text-accent-gold {
+    color: var(--accent-gold);
+  }
+  
+  .text-warm-white {
+    color: var(--warm-white);
+  }
+  
+  .text-soft-cream {
+    color: var(--soft-cream);
+  }
+  
+  .text-charcoal {
+    color: var(--charcoal);
+  }
+  
+  .bg-forest-green {
+    background-color: var(--forest-green);
+  }
+  
+  .bg-sage-green {
+    background-color: var(--sage-green);
+  }
+  
+  .bg-warm-brown {
+    background-color: var(--warm-brown);
+  }
+  
+  .bg-sandstone {
+    background-color: var(--sandstone);
+  }
+  
+  .bg-accent-gold {
+    background-color: var(--accent-gold);
+  }
+  
+  .bg-warm-white {
+    background-color: var(--warm-white);
+  }
+  
+  .bg-soft-cream {
+    background-color: var(--soft-cream);
+  }
+  
+  .bg-charcoal {
+    background-color: var(--charcoal);
+  }
+  
+  .border-forest-green {
+    border-color: var(--forest-green);
+  }
+  
+  .border-sage-green {
+    border-color: var(--sage-green);
+  }
+  
+  .border-accent-gold {
+    border-color: var(--accent-gold);
+  }
+
+  .glow-button {
+    box-shadow: 0 0 20px hsl(42, 87%, 55%, 0.3);
+    transition: all 0.3s ease;
+  }
+  
+  .glow-button:hover {
+    box-shadow: 0 0 30px hsl(42, 87%, 55%, 0.6);
+    transform: translateY(-2px);
+  }
+
+  .service-card {
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .service-card:hover {
+    transform: translateY(-8px) rotateX(5deg) rotateY(5deg);
+  }
+
+  .flip-card {
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-back {
+    transform: rotateY(180deg);
+  }
+
+  .project-card {
+    transition: all 0.3s ease;
+  }
+
+  .project-card:hover {
+    transform: translateY(-4px);
+  }
+
+  .testimonial-card {
+    transform: perspective(1000px) rotateX(0deg);
+    transition: transform 0.6s ease;
+  }
+  
+  .testimonial-card:hover {
+    transform: perspective(1000px) rotateX(5deg);
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out;
+}
