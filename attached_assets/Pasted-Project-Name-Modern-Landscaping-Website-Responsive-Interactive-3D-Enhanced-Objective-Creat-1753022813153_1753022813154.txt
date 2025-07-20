@@ -1,0 +1,77 @@
+Project Name:
+Modern Landscaping Website – Responsive, Interactive, 3D-Enhanced
+
+⸻
+
+Objective:
+Create a visually engaging, fully responsive, and performance-optimized website for a fictional or real landscaping company. The site should showcase services, projects, testimonials, and contact information using 3D animated elements, scroll-triggered transitions, and a clean modern layout. All content and imagery should be relevant to landscaping, gardening, and outdoor space transformation.
+
+⸻
+
+Tech Stack & Features:
+	•	Framework: Next.js or React.js
+	•	Styling: Tailwind CSS (with custom themes)
+	•	Animation: GSAP or Framer Motion for transitions, scroll animations, and 3D effects
+	•	3D/Visual Elements: CSS 3D Transforms or use Three.js (for more advanced interactive elements)
+	•	Content & Data: Static content with reusable components
+	•	Media: Use relevant, high-quality images and videos from Unsplash or Pexels
+
+⸻
+
+Layout & Sections:
+	1.	Hero Section
+	•	Full-screen background image or video of a beautifully landscaped garden or lawn (source from Unsplash: landscaping, garden, backyard, etc.)
+	•	Headline like: “Transforming Outdoor Spaces into Natural Masterpieces”
+	•	Floating CTA button (“Get a Free Quote”) with glow or hover tilt animation
+	•	Optional: animated leaves or grass using Lottie/GSAP on scroll or load
+	2.	About Us
+	•	Clean section with 2-column layout: text + image of team at work
+	•	Scroll-triggered entrance animations (fade + scale)
+	•	Add a 3D flip card effect for quick facts or company values
+	3.	Services
+	•	Grid of 6 cards: Lawn Care, Garden Design, Tree Trimming, Irrigation, Decking, Landscape Lighting
+	•	Each card has a hover interaction (3D tilt or flip), icons (from HeroIcons/FontAwesome), and short description
+	4.	Featured Projects
+	•	Image gallery or carousel showcasing before/after of past landscaping work
+	•	Include filter tabs (e.g., “Backyards”, “Lawns”, “Water Features”)
+	•	Animate cards on scroll using GSAP timeline or Framer stagger effects
+	5.	Testimonials
+	•	Sliding carousel of client reviews
+	•	Optional: 3D rotating quote box or floating stars with fade-in animation
+	6.	Contact / Get a Quote
+	•	Full-width form with animated floating labels
+	•	CTA section with animated background image (e.g., drone view of a garden)
+	•	Embedded Google Map with scroll animation
+	7.	Footer
+	•	Contact info, social links, business hours
+	•	Minimalistic design with animated icons and subtle hover effects
+
+⸻
+
+Design Language:
+	•	Color Palette: Earthy tones – deep greens, browns, warm beige, soft whites
+	•	Font Pairing: Clean serif for headings (e.g., Playfair Display) + readable sans-serif for body (e.g., Inter or Open Sans)
+	•	Visual Style: Natural, elegant, breathable, modern
+	•	Responsiveness: Fully mobile-friendly with adaptive layouts for tablets and desktops
+	•	Performance: Lazy loading images, preloading critical assets, and optimizing scroll effects
+
+⸻
+
+Image Sources:
+Use Unsplash or Pexels with search terms like:
+	•	landscaping, garden, backyard design, tree trimming, flower bed, stone walkway, outdoor lighting, lawn mowing
+
+⸻
+
+Bonus (Optional):
+	•	Add a blog/news section for seasonal landscaping tips
+	•	Animate plants growing when user scrolls down (e.g., progressive reveal or scale-up)
+	•	Use parallax scrolling backgrounds with depth layers (trees in foreground, garden in back)
+
+⸻
+
+Final Deliverables:
+	•	Responsive multi-page website or single scrollable landing page
+	•	Deployed on Replit with preview link
+	•	All content & components reusable and well-commented
+	•	Folder structure: components, assets/images, styles, pages (or sections if single page)
