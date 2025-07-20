@@ -16,7 +16,7 @@ export default function Projects() {
       description:
         "Complete landscape redesign featuring custom water feature, natural stone pathways, and drought-resistant plantings.",
       image:
-        "https://images.unsplash.com/photo-1592595896551-12b371d546d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
       category: "backyards",
       tags: ["Water Feature", "Eco-Friendly"],
     },
@@ -36,7 +36,7 @@ export default function Projects() {
       description:
         "Custom pond design with natural waterfall feature, aquatic plants, and integrated lighting system.",
       image:
-        "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+        "https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
       category: "water-features",
       tags: ["Water Feature", "Custom Design"],
     },
@@ -46,7 +46,7 @@ export default function Projects() {
       description:
         "Multi-level deck with integrated fire pit, outdoor kitchen prep area, and professional landscape lighting.",
       image:
-        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
       category: "backyards",
       tags: ["Hardscaping", "Lighting"],
     },
@@ -56,7 +56,7 @@ export default function Projects() {
       description:
         "Complete front landscape redesign with curved garden beds, native plantings, and preserved mature trees.",
       image:
-        "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+        "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
       category: "lawns",
       tags: ["Native Plants", "Tree Care"],
     },
@@ -66,7 +66,7 @@ export default function Projects() {
       description:
         "Sleek modern fountain design with integrated LED lighting and minimalist garden surrounding.",
       image:
-        "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+        "https://images.unsplash.com/photo-1507146153580-69a1fe6d8aa1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
       category: "water-features",
       tags: ["Modern Design", "LED Lighting"],
     },

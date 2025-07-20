@@ -89,18 +89,18 @@ export default function About() {
               className="rounded-xl shadow-lg w-full h-auto"
             />
             <img
-              src="https://images.unsplash.com/photo-1592595896551-12b371d546d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400"
-              alt="Modern garden with stone walkways and flowering plants"
+              src="https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400"
+              alt="Beautifully designed garden with stone pathways and colorful flowers"
               className="rounded-xl shadow-lg w-full h-auto mt-8"
             />
             <img
-              src="https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400"
-              alt="Landscape transformation before and after comparison"
+              src="https://images.unsplash.com/photo-1574263867128-a3d5c1b1deae?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400"
+              alt="Professional landscaper trimming bushes and maintaining garden"
               className="rounded-xl shadow-lg w-full h-auto -mt-4"
             />
             <img
               src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400"
-              alt="Hands planting flowers in rich garden soil"
+              alt="Hands planting flowers in rich garden soil with gardening tools"
               className="rounded-xl shadow-lg w-full h-auto mt-4"
             />
           </motion.div>

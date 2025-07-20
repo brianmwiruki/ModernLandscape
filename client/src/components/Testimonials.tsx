@@ -14,7 +14,7 @@ export default function Testimonials() {
       name: "Sarah Johnson",
       title: "Homeowner, Westfield",
       image:
-        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&h=150",
+        "https://images.unsplash.com/photo-1494790108755-2616b612b5bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&h=150",
       quote:
         "GreenVision transformed our backyard from a bare patch of dirt into a stunning garden paradise. Their attention to detail and creative vision exceeded all our expectations. We now have the outdoor oasis we always dreamed of!",
       rating: 5,
@@ -24,7 +24,7 @@ export default function Testimonials() {
       name: "Michael Chen",
       title: "Property Manager",
       image:
-        "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&h=150",
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&h=150",
       quote:
         "Professional, reliable, and incredibly skilled. The team at GreenVision installed our irrigation system and it's been working flawlessly for two years. Our water bill has actually decreased while our garden has never looked better!",
       rating: 5,
@@ -34,7 +34,7 @@ export default function Testimonials() {
       name: "Lisa & David Rodriguez",
       title: "Homeowners, Downtown",
       image:
-        "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&h=150",
+        "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&h=150",
       quote:
         "From the initial consultation to project completion, GreenVision was outstanding. They listened to our ideas, provided expert recommendations, and delivered a landscape design that perfectly matches our lifestyle. Highly recommended!",
       rating: 5,
